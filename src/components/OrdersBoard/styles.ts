@@ -10,7 +10,7 @@ export const Board = styled.div`
   justify-content: center;
   flex: 1;
 
-  header {
+  > header {
     padding: 8px;
     font-size: 14px;
     display: flex;
@@ -51,7 +51,8 @@ export const OrdersContainer = styled.div`
     }
 
     :hover {
-      background: #c5c5c5;
+      /* background: #c5c5c5; */
+      border: 1px solid rgba(204, 204, 204, 1);
       transform: color 0.3s; // TODO
     }
   }
